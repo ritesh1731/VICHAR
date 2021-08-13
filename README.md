@@ -7,27 +7,9 @@ the final result of the poll and also to get the immediate access to your real t
 Users can SignUp/Login, create surveys, update surveys and take surveys. They can
 change the background colour and the font of the form.
 
-## Demo App on Heroku
 
-Front-end in react: [Survey Web App](https://nextly-survey-web.herokuapp.com/)
 
-Back-end API: [Survey API](https://nextly-survey.herokuapp.com/)
 
-### API Docs
-
-[Postman Docs](https://documenter.getpostman.com/view/6051051/SWTD8Grh?version=latest#1788bb0c-b1b2-480d-bafe-87497e22c909)
-
-[Backend API Repository](https://github.com/tosnextly/survey-api) 
-
-#### Admin Login Details
-
-Email: admin@admin.com
-Password: 123456
-
-#### Normal User Login Details
-
-Email: email@email.com
-Password: 123456
 
 ## Running the app locally
 
@@ -37,33 +19,7 @@ yarn
 yarn start
 ```
 
-## Specifications
 
-**Tier:** 3-Advanced
-
-Surveys are a valuable part of any developers toolbox. They are useful for
-getting feedback from your users on a variety of topics including application
-satisfaction, requirements, upcoming needs, issues, priorities, and just plain
-aggravations to name a few.
-
-The Survey app gives you the opportunity to learn by developing a full-featured
-app that will you can add to your toolbox. It provides the ability to define a
-survey, allow users to respond within a predefined timeframe, and tabulate
-and present results.
-
-Users of this app are divided into two distinct roles, each having different
-requirements:
-
-- _Survey Coordinators_ define and conduct surveys. This is an administrative
-  function not available to normal users.
-- _Survey Respondents_ Complete surveys and view results. They have no
-  administrative privileges within the app.
-
-Commercial survey tools include distribution functionality that mass emails
-surveys to Survey Respondents. For simplicity, this app assumes that surveys
-open for responses will be accessed from the app's web page.
-
-## User Stories
 
 ### General
 
@@ -118,18 +74,4 @@ open for responses will be accessed from the app's web page.
 - [x] Survey Coordinators and Survey Respondents can view graphical
       representations of survey results (e.g. pie, bar, column, etc. charts)
 
-## Useful links and resources
 
-Libraries for building surveys:
-
-- [SurveyJS](https://surveyjs.io/Overview/Library/)
-
-Some commercial survey services include:
-
-- [Survey Monkey](https://www.surveymonkey.com/)
-- [Traversy](https://youtu.be/SSDED3XKz-0)
-- [Typeform](https://www.typeform.com/)
-
-## Example projects
-
-[Javascript Questionnaire](https://codepen.io/amyfu/pen/oLChg)
